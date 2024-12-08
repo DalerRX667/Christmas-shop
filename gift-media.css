@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+  .burger-btn {
+    display: block;
+  }
+  .Header img {
+    margin-left: 40px;
+  }
+  .HREF {
+    display: none;
+  }
+  .header {
+    height: 2700px;
+  }
+  .gifting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: -2px;
+  }
+
+  .footer-header {
+    display: grid;
+  }
+  .footer-footer h3 {
+    padding-bottom: 20px;
+  }
+  .header {
+    margin-left: 0px;
+  }
+
+  .all {
+    padding: 20px;
+  }
+
+  .gifting {
+    margin-left: -33px;
+  }
+}
+
+@media (max-width: 380px) {
+  .burger-btn {
+    display: block;
+  }
+
+  .gifting {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 25px;
+  }
+
+  .all-hero {
+    font-size: 8px;
+    padding: 10px;
+  }
+
+  .header {
+    height: 5076px;
+  }
+  .all {
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .header-hero {
+    font-size: 12px;
+  }
+
+  .Header-title {
+    font-size: 12px;
+  }
+
+  .gift-history {
+    margin-left: -70px;
+  }
+
+  .header {
+    background-image: none;
+  }
+  .gifting {
+    margin-left: -25px;
+  }
+  .header {
+    height: 5100px;
+  }
+}
